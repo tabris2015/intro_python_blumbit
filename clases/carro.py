@@ -26,3 +26,6 @@ class Carro():
                 print('primero encienda el carro')
         else:
             print('gasolina insuficiente')
+
+class Camion(Carro):
+    marca = ''
